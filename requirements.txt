@@ -1,0 +1,11 @@
+python-dotenv
+pandas
+sentence_transformers
+faiss-cpu
+numpy
+openai
+streamlit>=1.25
+PyPDF2
+transformers 
+chardet
+tabula
