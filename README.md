@@ -5,6 +5,8 @@
 ## Overview
 A Streamlit app & notebook tutorial that lets users upload their own CSV or PDF, builds a FAISS-backed retrieval index, and answers questions via OpenRouter LLM 
 
+!(https://github.com/audichandra/Upload-Driven-RAG/blob/main/results_img/qtest1.png)
+
 Features: 
 - Upload CSV or PDF (tables + free text)
 - Automatic JSON conversion for exact numeric/date QA
