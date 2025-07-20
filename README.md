@@ -16,7 +16,20 @@ Features:
 - Mistral LLM via OpenRouter for final generation
 - Configurable sliders: row limit, chunk size, top-K, HyDE threshold
 - Collapsible context preview & downloadable HTML report
-- Jupyter notebook tutorial with code + explanations
+- Jupyter notebook guide with code + explanations
 
+---
+
+## Repository Structure
+
+/
+├── app/ # Streamlit app code
+│ └── upload_rag.py
+├── notebook/ # Jupyter tutorial
+│ └── upload_rag_tutorial.ipynb
+├── requirements.txt # Python dependencies
+├── README.md # Project overview (this file)
+├── LICENSE
+└── .env.example # env vars template
 
 ---
