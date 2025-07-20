@@ -20,16 +20,5 @@ Features:
 
 ---
 
-## Repository Structure
-
-/
-├── app/ # Streamlit app code
-│ └── upload_rag.py
-├── notebook/ # Jupyter tutorial
-│ └── upload_rag_tutorial.ipynb
-├── requirements.txt # Python dependencies
-├── README.md # Project overview (this file)
-├── LICENSE
-└── .env.example # env vars template
 
 ---
