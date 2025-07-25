@@ -19,6 +19,11 @@ Features:
 - Jupyter notebook guide with code + explanations
 
 ---
+## Installation 
 
-
+1. Clone this repo
+   ```
+   git clone https://github.com/audichandra/Upload-Driven-RAG.git
+   cd upload-driven-rag
+   ```
 ---
