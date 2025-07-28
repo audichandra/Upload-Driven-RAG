@@ -26,4 +26,13 @@ Features:
    git clone https://github.com/audichandra/Upload-Driven-RAG.git
    cd upload-driven-rag
    ```
+2. Create & activate a virtual environment
+   ```
+   python -m venv .venv
+   source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+   ```
+3. 
+
+
+
 ---
