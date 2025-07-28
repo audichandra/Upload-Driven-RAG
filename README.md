@@ -31,7 +31,18 @@ Features:
    python -m venv .venv
    source .venv/bin/activate  # or .venv\Scripts\activate on Windows
    ```
-3. 
+3. Install dependencies
+   ```
+   pip install -r requirements.txt
+   ```
+4. Copy ```env.example``` to ```.env``` and fill in your ```OPENROUTER_API_KEY```
+   
+5. Running the App
+   ```
+   streamlit run app/upload_rag.py
+   ```
+   - Open http://localhost:8501 in your browser.
+   - Upload a CSV or PDF, tune the sliders, ask questions, download results. (in the datasets folder, 4 dataset examples cover from csv table into a pdf with table)  
 
 
 
