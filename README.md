@@ -36,14 +36,29 @@ Features:
    pip install -r requirements.txt
    ```
 4. Copy ```env.example``` to ```.env``` and fill in your ```OPENROUTER_API_KEY```
-   
-5. Running the App
-   ```
-   streamlit run app/upload_rag.py
-   ```
-   - Open http://localhost:8501 in your browser.
-   - Upload a CSV or PDF, tune the sliders, ask questions, download results. (in the datasets folder, 4 dataset examples cover from csv table into a pdf with table)  
 
+--- 
+## Running the App
+```
+streamlit run app/upload_rag.py
+```
+- Open http://localhost:8501 in your browser.
+- Upload a CSV or PDF, tune the sliders, ask questions, download results. (in the datasets folder, 4 dataset examples cover from csv table into a pdf with table)  
 
+--- 
+## Architecture & Flow
+1. **Data Ingestion**
+
+2. **JSON Conversion** for exact QA
+
+3. **Chunking** (token limit enforcement)
+
+4. **Embedding & FAISS Index** (Flat/IVF)
+
+5. **Hybrid Retrieval**
+   - Numeric/Date → Pandas or JSON snippet
+   - Free-text → HyDE → FAISS → rerank → LLM
+
+6. **Answer Generation** + Collapsible context
 
 ---
