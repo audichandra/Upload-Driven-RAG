@@ -62,3 +62,19 @@ streamlit run app/upload_rag.py
 6. **Answer Generation** + Collapsible context
 
 ---
+
+## Contributing
+1. Fork & branch
+2. Make changes & add tests
+3. Submit a Pull Request, referencing an issue if applicable
+
+--- 
+
+## License
+This project is released under the [MIT License](https://github.com/audichandra/Upload-Driven-RAG/blob/main/LICENSE).
+
+## Acknowledgments
+- [Hugging Face](https://huggingface.co) for datasets & models
+- [Streamlit](https://streamlit.io) for rapid UI
+- [FAISS](https://github.com/facebookresearch/faiss) for similarity search
+- [OpenRouter](https://openrouter.ai) & Mistral-small for LLM API
