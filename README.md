@@ -1,6 +1,5 @@
 # Upload-Driven-RAG
 
----
 
 ## Overview
 A Streamlit app & notebook tutorial that lets users upload their own CSV or PDF, builds a FAISS-backed retrieval index, and answers questions via OpenRouter LLM 
@@ -18,7 +17,6 @@ Features:
 - Collapsible context preview & downloadable HTML report
 - Jupyter notebook guide with code + explanations
 
----
 ## Installation 
 
 1. Clone this repo
@@ -37,7 +35,6 @@ Features:
    ```
 4. Copy ```env.example``` to ```.env``` and fill in your ```OPENROUTER_API_KEY```
 
---- 
 ## Running the App
 ```
 streamlit run app/upload_rag.py
@@ -45,7 +42,6 @@ streamlit run app/upload_rag.py
 - Open http://localhost:8501 in your browser.
 - Upload a CSV or PDF, tune the sliders, ask questions, download results. (in the datasets folder, 4 dataset examples cover from csv table into a pdf with table)  
 
---- 
 ## Architecture & Flow
 1. **Data Ingestion**
 
@@ -61,14 +57,12 @@ streamlit run app/upload_rag.py
 
 6. **Answer Generation** + Collapsible context
 
----
 
 ## Contributing
 1. Fork & branch
 2. Make changes & add tests
 3. Submit a Pull Request, referencing an issue if applicable
 
---- 
 
 ## License
 This project is released under the [MIT License](https://github.com/audichandra/Upload-Driven-RAG/blob/main/LICENSE).
